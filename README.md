@@ -81,9 +81,11 @@ ESP32_Sensor_Project/
 └── README.md                  # Documentation
 ├── previous code/             # Development History & Iterations
 │   ├── Cali_friday            # Initial sensor calibration tests
-│   ├── Calibration...         # Environment sensor calibration logic
-│   ├── Environment_WIFI...    # Early integration tests
-│   └── sd_tof                 # Distance sensor & SD card unit tests
+│   ├── Calibriation_Environment_sensor # Detailed calibration logic
+│   ├── Environment_WIFI_SD_HTML # Early integration (Web+SD)
+│   ├── environment            # Basic environmental sensor drivers
+│   ├── python_scripts         # Legacy/Old Python scripts
+│   └── sd_tof                 # Distance sensor & SD 
 ├── 3D Enclosure/              # Mechanical Design Files (.stl)
 │   ├── PCB_Enclosure_Body.stl # Main housing for electronics
 │   ├── PCB_Cover.stl          # Lid for the sensor unit
